@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+body {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forSearch {
+    display: flex;
+    column-gap: 16px;
+}
+
+.forInput {
+    display: flex;
+    column-gap: 16px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+
+}
